@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iliasur Rahman Portfolio</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo">Iliasur Rahman</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Iliasur Rahman</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#About" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="pic-container">
+            <img src="/assets/assets/profile-pic.png" alt="Iliasur Rahman">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
